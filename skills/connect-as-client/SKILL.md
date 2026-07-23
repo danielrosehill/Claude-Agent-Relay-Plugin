@@ -15,7 +15,7 @@ Register a running relay server as an MCP server in the local Claude install and
 
 ## Inputs to gather
 
-- Relay URL (e.g., `http://ubuntuvm:8844`)
+- Relay URL (e.g., `http://residencehome:8844`)
 - Client ID for this instance (e.g., `claude-daniel-desktop`)
 - Optional shared bearer token (if the relay requires it)
 

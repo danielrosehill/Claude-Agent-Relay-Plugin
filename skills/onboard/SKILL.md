@@ -37,7 +37,7 @@ echo "Using $DATA"
 
 Ask, in order:
 
-- **Relay URL** -- e.g. `http://ubuntuvm.lan:7878/mcp/`. If the relay isn't deployed yet, suggest running `setup-relay-server` first.
+- **Relay URL** -- e.g. `http://residencehome.lan:7878/mcp/`. If the relay isn't deployed yet, suggest running `setup-relay-server` first.
 - **This machine's client_id** -- short, stable, kebab-case. Suggest a default based on `hostname` and the active user (e.g. `claude-${USER}-${HOSTNAME%%.*}`).
 - **Shared bearer token** -- optional. If the relay was set up without one, leave blank.
 - **Peer roster** -- repeatedly prompt for `friendly_name`, `client_id`, optional `notes`. The friendly_name is what other skills will accept on the command line (so `send-message ha "..."` resolves to client_id `claude-homeassistant-server`). Stop when the user says they're done.
@@ -45,7 +45,7 @@ Ask, in order:
 ### 3. Write `config.toml`
 
 ```toml
-relay_url = "http://ubuntuvm.lan:7878/mcp/"
+relay_url = "http://residencehome.lan:7878/mcp/"
 client_id = "claude-daniel-desktop"
 shared_token = ""   # leave empty on a trusted LAN
 ```

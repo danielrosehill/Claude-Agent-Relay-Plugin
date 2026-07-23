@@ -15,7 +15,7 @@ Deploy the Claude Agent Relay server to a user-specified SSH host, configure it 
 
 ## Inputs to gather
 
-- SSH target host (e.g., `user@ubuntuvm` or `10.0.0.75`)
+- SSH target host (e.g., `user@residencehome` or `10.0.0.75`)
 - Bind address for the relay (default: `127.0.0.1`; use `0.0.0.0` for LAN access)
 - Port (default: `8844`)
 - Optional shared bearer token for all clients (or empty to skip)
